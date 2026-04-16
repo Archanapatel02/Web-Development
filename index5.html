@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+        <h1>University Registration Form</h1>
+        <p> please fill out the form below to register</p>
+        <hr>
+        <form>
+        <h2>Personal Detail</h2>
+        <label for="Name">First Name :</label>
+        <input type="text" name="name" id="name" placeholder="e.g: archana" required>
+        <br><br>
+        <label for="Name">Last Name :=</label>
+        <input type="text" name="name" id="name" placeholder="e.g: patel">
+        <br><br>
+        <label for="dom"> Dom :</label>
+        <input type="date" name="dom" id="dom">
+        <br><br>
+        <h4>Gender</h4>
+        <label  for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <br><br>
+        <label for="female" >Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br><br>
+        <label for="other" >Other</label>
+        <input type="radio" name="gender" id="other" value=" other">
+        <br><br>
+        <h4>Upload your photo</h4>
+        <input type="file" name="file" >
+        
+        <hr>
+            <h2>Contact Information</h2>
+            <label for="email address">Email Address:</label>
+            <input type="email" name="email" id="email" placeholder="you@exmple.com">
+            <br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone">
+            <br><br>
+            <label for="Address">Meiling Address:</label>
+            <br>
+            <textarea name="Address" id=" Address" rows="10" cols="20"></textarea>
+            <hr>
+            <h2>Academia information</h2>
+            <label for="course">Select your Course:</label>
+            <select name="course" id="course">
+                <option value="CSE">CSE</option>
+                <option value="AIML">AIML</option>
+                <option value="CS">CS</option>
+            </select>
+            <h4>Extracurricular Interest :</h4>
+            <input type="checkbox" name="interest" id="sport" value="sport">
+            <label for="sport">Sport</label>
+            
+            <br><br>
+            <input type="checkbox" name="interest" id="music & arts" value="music & arts">
+            <label for="music & arts">Music & Arts</label>
+            <br><br>
+            <input type="checkbox" name="interest" id="technology clubs" value="technology clubs">
+            <label for="technology clubs">Technology Clubs</label>
+            <br><br>
+            <input type="checkbox" name="volunteering" id="volunteering" value="volunteering">
+            <label for="volunteering">Volunteering</label>
+            <br><br>
+            <hr>
+            <h2>Create your account</h2>
+            <label for="pass"> Create a password:</label>
+            <input type="password" name="pass" id="pass">
+            <br><br>
+            <label for="secu"> Security Question</label>
+            <select name="security Quention" id="Security Questio">
+                <option value="what is the name of your first pet name ">what is the name of your first pet name </option>
+                <option value="who is your best frnd">who is your best frnd</option>
+                <option value="which colour is your favioute colour ">which colour is your favioute colou</option>
+                </select>
+                <br><br>
+            <label for="secu">Security  answer:</label>
+            <input type="text" name="secu" id="secu">
+            <br><br>
+            <hr>
+            <button type="Submit">Register</button>
+            <button type="reset">Clear form</button>
+
+        </form>
+
+</body>
+</html>
