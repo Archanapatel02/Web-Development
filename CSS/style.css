@@ -1,0 +1,63 @@
+/*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+
+}
+.container{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: brown;
+    gap: 10px;
+    height: 200px;
+    width: 200px;
+
+    
+}
+.frist{
+    background-color: blueviolet;
+
+}
+.second{
+    background-color: aquamarine;
+}
+.thrid{
+    background-color: cadetblue;
+}
+.fourth{
+    background-color: chocolate;
+}    */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:antiquewhite;
+}
+
+.container{
+    height: 800px;
+    width: 800px;
+    display: grid;
+    grid-template-rows:  repeat(8,1fr);
+    grid-template-columns:repeat(8,1fr);
+    background-color: rgba(165, 42, 42, 0.435);
+}
+.white{
+    background-color:white;
+}
+.black{
+    background-color:black;
+}
+
