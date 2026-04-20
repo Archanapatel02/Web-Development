@@ -1,0 +1,44 @@
+.container{
+    height: 400px;
+    width: 400px;
+    font-size: 50px;
+    background-color: rebeccapurple;
+}
+/*desktop
+@media screen and (max-width:500px){
+    .container{
+        background-color: bisque;
+        font-size: 60px;
+    }
+    
+}
+@media screen and (max-width:900px){
+    .container{
+        background-color: bisque;
+        font-size: 60px;
+    }
+    
+}*/
+/* mobile
+@media screen and (min-width:900px){
+    .container{
+        background-color: bisque;
+        font-size: 60px;
+    }
+    
+} 
+
+    
+
+
+
+@media screen and (min-width:500px){
+    .container{
+        background-color: bisque;
+        font-size: 60px;
+    }
+    
+} */
+
+
+
