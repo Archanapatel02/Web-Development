@@ -1,0 +1,66 @@
+*{
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.container{
+    padding: 20px;
+    position: relative;
+}
+
+.box{
+    height: 100px;
+    width: 150px;
+    background-color: brown;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-delay:2s ;
+    animation-fill-mode: backwards;
+    position: absolute;
+}
+
+@keyframes moving{
+    /*from{
+        background-color: rosybrown;
+        top: 10px;
+        left: 10px;
+    }
+    to{
+        background-color: blueviolet;
+        top: 10px;
+        left: 500px;
+    }*/
+
+    0%{
+        background-color: bisque;
+        top: 10px;
+        left: 10px;
+    }
+    25%{
+        background-color: aquamarine;
+        top: 10px;
+        left: 1000px;
+
+    }
+    50%{
+        background-color: cadetblue;
+        top: 500px;
+        left: 1000px;
+    }
+    75%{
+        background-color: chocolate;
+        top: 500px;
+        left: 10px;
+    }
+    100%{
+        background-color: bisque;
+        top: 10px;
+        left: 10px;
+    }
+
+}
