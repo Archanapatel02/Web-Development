@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+    cursor: pointer;
+    /* transform: translate(100px,200px);*/
+    transform: rotate(3);
+    transition: all 3s; 
+
+}
+.box:hover{
+    /* transform: scaleY(2);
+    transform: translate(100px, 200px);*/
+
+}
